@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <nav class="nav">
+        <h4 class="logo">Bappy</h4>
+        <div class="navlink">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="line"></div>
+   </header>
+   <section style="">
+    <div class="profile" id="home">
+       <div class="info">
+            <div class="info1">
+                <h1  style="">Hi, <br> I'am <span style="color: #3E6FF4;">Faysal</span> <br>Web Developer</h1>
+                <button class="btn">Contact</button>
+            </div>
+            <div class="image-div"><img src="./assets/profile.png" alt="profile"></div>
+            <div class="icon">
+                <span><i class="fa-brands fa-linkedin"></i></span>
+                <span><i class="fa-brands fa-github"></i></span>
+                <span><i class="fa-solid fa-link"></i></span>
+            </div>
+        
+       </div>
+    </div>
+    <div class="aboutSection" id="about">
+        <div style="text-align: center;">
+            <span class="title">About</span>
+        </div>
+        <div class="about">
+            <div class="aboutimg"><img src="./assets/about.jpg" alt="" width="300px"></div>
+            <div style="padding: 10px;">
+                <h4>I'am Faysal</h4>
+                <p style="text-align: justify;">I am a student of College of Business Science and Technology in Computer Science and Engineering (CSE). I am a web developer at front-end speciality in Reactjs.  Now, I'm learning MERN stack development with Basify. It is a 6 month journey.</p>
+            </div>
+        </div>
+    </div>
+    <!-- skills section -->
+    <div id="skills" style="max-width: 1000px; margin:100px auto;">
+        <div style="text-align: center;">
+            <span class="title">Skills </span>
+        </div>
+           
+
+    <div style="margin: 60px auto;">
+        <div class="skillssection" style="margin-left: 10px;">
+            <div class="skillsinfo">
+                <h2>Professional Skills</h2>
+                <p> I am a web developer at front-end speciality in Reactjs.Other skills git, github, tailwindcss, nodejs, express, mongoDB</p>
+                <div class="progress">
+                   <div class="single">
+                    <div class="icon1"><i class="fa-brands fa-html5"></i></div>
+                    <div class="name">HTML5</div>
+                    <div class="persent">95%</div>
+                   </div>
+                   <div class="progressbar" style="width: 95%;"></div>
+                </div>
+                <div class="progress">
+                   <div class="single">
+                    <div class="icon1"><i class="fa-brands fa-css3-alt"></i></div>
+                    <div class="name">CSS3</div>
+                    <div class="persent">85%</div>
+                   </div>
+                   <div class="progressbar" style="width: 85%;"></div>
+                </div>
+                <div class="progress">
+                   <div class="single">
+                    <div class="icon1"><i class="fa-brands fa-js"></i></div>
+                    <div class="name">JAVASCRIPT</div>
+                    <div class="persent">65%</div>
+                   </div>
+                   <div class="progressbar" style="width: 65%;"></div>
+                </div>
+                <div class="progress">
+                   <div class="single">
+                    <div class="icon1"><i class="fas fa-paint-brush"></i></div>
+                    <div class="name">UX/UI</div>
+                    <div class="persent">88%</div>
+                   </div>
+                   <div class="progressbar" style="width: 88%;"></div>
+                </div>
+            </div>
+            <div class="skillsimgdiv">
+                <img src="./assets/work1.jpg" alt="work" class="skillsimg">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- work section -->
+     <div id="work" style="max-width: 1000px; margin:100px auto;">
+        <div style="text-align: center; margin: 50px auto;">
+            <span class="title">Work</span>
+        </div>
+        <div class="work">
+            <img src="./assets/work1.jpg" alt="work1">
+            <img src="./assets/work2.jpg" alt="work2">
+            <img src="./assets/work3.jpg" alt="work3">
+            <img src="./assets/work4.jpg" alt="work4">
+            <img src="./assets/work5.jpg" alt="work5">
+            <img src="./assets/work6.jpg" alt="work6">
+        </div>
+     </div>
+     <!-- contact section -->
+      <div id="contact" style="margin: 100px auto;">
+        <div style="text-align: center; margin: 50px auto;">
+            <span class="title">Contact</span>
+        </div>
+        <div>
+            <form action="">
+             <div>
+                <label for="">Name</label>
+                <input type="text" name="name" placeholder="Name">
+             </div>
+              <div>
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="Email">
+              </div>
+                <div>
+                    <label for="">Massage</label>
+                <textarea name="text" id="" rows="15" cols="10" placeholder="Massage"></textarea>
+                </div>
+                <div style=" align-items: end;">
+                    <button class="btn" style="width: 150px; ">Send</button>
+                </div>
+            </form>
+        </div>
+      </div>
+      <footer style="background-color: #0D1730; color: white; height: 30vh; text-align: center;display: flex;flex-direction: column; align-items: center; justify-content: center;">
+        <h1>Faysal Ahmed</h1>
+        <div class="footer">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-discord"></i></span>
+            <span><i class="fa-brands fa-whatsapp"></i></span>
+            
+        </div>
+        <i>© Faysal ahmed. All rigths reserved</i>
+      </footer>
+   </section>
+</body>
+</html>

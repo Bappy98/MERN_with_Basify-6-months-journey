@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="faysal ahmed">
+    <meta name="publisher" content="faysal">
+    <meta name="description" content="learn html with Basify">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <h2>Register</h2>
+    <form action="" method="post">
+        <label for="">Name:</label> <br>
+        <input type="text" name="name" placeholder="Enter your name" required> <br>
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter email" name="email" required><br>
+        <label>Password:</label><br>
+        <input type="password" placeholder="Enter password" name="password" required> <br>
+        <label>Gender:</label><br>
+        <input type="radio" name="male" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" required name="female" value="female" id="female">
+        <label for="female">Female</label> <br>
+        
+        <label for="userType">User Type:</label>
+        <select name="userType" required id="userType">
+            <option value="" selected disabled hidden>select user Type</option>
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+        </select> <br><br>
+        <button type="submit">sign up</button>
+    </form>
+   </div>
+    <br><br>
+   <center>
+    <h3>User info</h3>
+    <table border="1" cellpadding="4">
+      <thead>
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Email</th>
+            <th rowspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Faysal</td>
+            <td>Ahmed</td>
+            <td>faysal@gmail.com</td>
+            <td>Mymensingh</td>
+        </tr>
+        <tr>
+            <td>Bappy</td>
+            <td>Ahmed</td>
+            <td>bappy@gmail.com</td>
+            <td>Dhaka</td>
+        </tr>
+      </tbody>
+    </table>
+   </center>
+    <br><br>
+    <header>
+        <center><nav>
+            <a href="">Home</a> | 
+            <a href="">About</a> |
+            <a href="">Contact</a>
+        </nav></center>
+
+    </header>
+    <br>
+
+
+    <center>
+        <iframe src="./maim.html" frameborder="0" width="80%" height="500px"></iframe>
+    </center>
+
+</body>
+</html>
